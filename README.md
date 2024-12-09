@@ -169,6 +169,14 @@ Notre RAID 1 est prêt
 <details>
   <summary>
     <h2> :arrow_forward: RAID sous Ubuntu
-      
   </summary>
 </details>
+
+![Capture d'écran 2024-12-09 164224](https://github.com/user-attachments/assets/e0dc5aa1-9b7e-424b-9170-5d30c98de9c3)
+taper `m` pour voir les options. taper `n` pour nouvelle partition. Puis `p`, pour partition primaire, puis entrée plusieurs fois pour prendre tout le disque.t
+
+
+
+En tapant `sudo fdisk -l` on voit que notre partition Linux RAID a bien été prise en compte :  
+![Capture d'écran 2024-12-09 165050](https://github.com/user-attachments/assets/6ea60427-25ca-40b0-ab66-9fc97527c174)
+
