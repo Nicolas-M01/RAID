@@ -1,7 +1,11 @@
 # RAID
 ---
-
-Il existe différends types de raid.  
+<details>
+<summary><h2>
+:arrow_forward: Les différents types de RAID.  
+</h2>
+</summary>
+  
 ### RAID 0  
 la configuration RAID 0 permet d'améliorer la performance du système en répartissant 50% des données sur un disque et 50% sur l'autre.
 Les deux disques travaillant simultanément, on dispose ainsi de performances deux fois plus élevée.
@@ -66,3 +70,4 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 
 ![image](https://github.com/user-attachments/assets/c092cd22-8991-40f8-847a-33d13623f48b)
 ---
+</details>
