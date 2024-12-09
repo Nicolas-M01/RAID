@@ -170,9 +170,9 @@ Notre RAID 1 est prêt
   <summary>
     <h2> :arrow_forward: RAID sous Ubuntu
   </summary>
-</details>
 
-Installer "mdadm" :
+
+### Installer "mdadm" :
 `sudo apt-get install mdadm`, pour administrer le RAID mdadm sous Linux.  
 
 
@@ -184,7 +184,31 @@ taper `m` pour voir les options. taper `n` pour nouvelle partition. Puis `p`, po
 
 Faire la même chose avec le disque c : `sudo fdisk /dev/sdc`  
 
-
 `lsblk` permet de voir nos partitions sur les 2 disques.  
 ![Capture d'écran 2024-12-09 165824](https://github.com/user-attachments/assets/2d3036f8-45b5-44c9-a5e9-6ceb57dc2ebc)  
 
+
+### Création du RAID  
+![Capture d'écran 2024-12-09 170341](https://github.com/user-attachments/assets/3211b199-5f05-41d4-95c7-3c3c1566b64f)  
+
+* Vérification de l'état du RAID : `cat /proc/mdstat`. (Le résultat de la commande donne un RAID 1 actif md0 avec les partitions sdb1 et sdc1. De plus[UU] indique que les 2 disques sont en marche (Up))  
+* Voir l'état du RAID avec `sudo mdadm --detail /dev/md0`. (Ici le statut du RAID est clean et les partitions concernées sont bien /dev/sdb1 et /dev/sdc1. 
+De plus, /dev/sdb1 et /dev/sdc1 sont bien synchronisés.)  
+* Voir les disque inclus dans le RAID avec `lsblk -f`.
+
+### Formatage du RAID  
+
+Formates le volume RAID md0 avec un file system en ext4 et avec le nom PersonalData.  
+![Capture d'écran 2024-12-09 171738](https://github.com/user-attachments/assets/8dda505e-22a0-485d-80ec-9324e932d387)
+
+### Montage du RAID  
+
+
+Montage à chaque démarrage :  
+![Capture d'écran 2024-12-09 172314](https://github.com/user-attachments/assets/b0e90dd0-38cf-4a13-98ff-2b719f7f2bdb)
+
+
+
+
+
+</details>
