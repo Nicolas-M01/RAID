@@ -172,6 +172,10 @@ Notre RAID 1 est prêt
   </summary>
 </details>
 
+Installer "mdadm" :
+`sudo apt-get install mdadm`, pour administrer le RAID mdadm sous Linux.
+
+
 ![Capture d'écran 2024-12-09 164224](https://github.com/user-attachments/assets/e0dc5aa1-9b7e-424b-9170-5d30c98de9c3)
 taper `m` pour voir les options. taper `n` pour nouvelle partition. Puis `p`, pour partition primaire, puis entrée plusieurs fois pour prendre tout le disque. Changer le type de partition avec `t`, puis `L` pour avoir les raccourcis de codes. taper ensuite `fd` pour "Linux RAID auto". Ensuite `w` pour enregistrer et quiter.  
 
