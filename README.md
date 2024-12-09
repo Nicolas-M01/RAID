@@ -208,6 +208,10 @@ De plus, /dev/sdb1 et /dev/sdc1 sont bien synchronisés.)
 ![Capture d'écran 2024-12-09 172422](https://github.com/user-attachments/assets/f20a01dc-8283-4422-8211-ecd8977cbed1)  
 ---
 
+### Monter le RAID à chaque démarrage  
+
+`blkid /dev/md0 >> /etc/fstab`. Puis dans `/etc/fstab`, il faut modifier la ligne copier pour avoir quelque chose du style : `UUID=XXXX-XXXX-XXXX-XXXX /homr/velarion/Data-RAID1 ext4 defaults 0 0`  
+
 
 ### Verrouillage du nom md0 de la partition RAID  
 * Envoyer le résultat de la commande `sudo mdadm --detail --scan` dans /etc/mdadm/mdadm.conf
