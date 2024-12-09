@@ -164,3 +164,11 @@ Notre RAID 1 est prêt
 ![Capture d'écran 2024-12-09 145242](https://github.com/user-attachments/assets/a565fce9-79b6-4bd7-906b-be291467d083)  
 </details>
 
+
+
+<details>
+  <summary>
+    <h2> :arrow_forward: RAID sous Ubuntu
+      
+  </summary>
+</details>
