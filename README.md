@@ -75,24 +75,38 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 
 
 <details>
-<summary><h2> RAID 0 sous Windows (striping)  
+<summary><h2> :arrow_forward: RAID 0 sous Windows (striping)  
 </summary>
 Dans `Disk Management`  
-`New striped volume` sur un des disques choisis pour le RAID 0    
+`New striped volume` sur un des disques choisis pour le RAID 0  
+---
+  
 ![Capture d'écran 2024-12-09 143633](https://github.com/user-attachments/assets/1985024c-ff5e-44f9-b7c5-aa45f2813301)  
+---
 Choisir le 2ème disque de réplication  
 ![Capture d'écran 2024-12-09 143654](https://github.com/user-attachments/assets/abea8da8-90e3-4e69-98a2-ce7a66d82c1e)  
+---
 Attribuer une lettre de lecteur pour le RAID 0  
 ![Capture d'écran 2024-12-09 143712](https://github.com/user-attachments/assets/54cab969-c19d-457a-9db6-6b9cc29977d6)  
+---
 Nommer le RAID 0  
 ![Capture d'écran 2024-12-09 143734](https://github.com/user-attachments/assets/09d7342e-ac6d-4328-8853-bd7b7bd7ee1f)  
+---
 Notre RAID 0 est prêt :  
 ![Capture d'écran 2024-12-09 143858](https://github.com/user-attachments/assets/b85d5579-b155-4993-a378-9fe9108cc9cb)  
+---
 </details>
 
-### RAID 1 sous Windows (mirroring & duplexing)  
+  
+<summary><h2> :arrow_forward: RAID 1 sous Windows (mirroring & duplexing)  
+</summary>
 
-### RAID 5 sous Windows (striping with parity)  
+  
+</details>
+
+<details>
+<summary><h2> :arrow_forward: RAID 5 sous Windows (striping with parity)  
+</summary>
 
 :hash: ``Choix du RAID 5 sur un des disques``  
 ---
@@ -115,5 +129,5 @@ Notre RAID 0 est prêt :
 :hash: Notre RAID 5 est prêt  
 ---
 ![Capture d'écran 2024-12-09 145242](https://github.com/user-attachments/assets/a565fce9-79b6-4bd7-906b-be291467d083)
-
+</details>
 
