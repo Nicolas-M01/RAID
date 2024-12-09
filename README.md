@@ -200,13 +200,16 @@ De plus, /dev/sdb1 et /dev/sdc1 sont bien synchronisés.)
 
 Formates le volume RAID md0 avec un file system en ext4 et avec le nom PersonalData.  
 ![Capture d'écran 2024-12-09 171738](https://github.com/user-attachments/assets/8dda505e-22a0-485d-80ec-9324e932d387)
+---
 
 ### Montage du RAID  
 
-
+* Création du dossier + Montage :  
+![Capture d'écran 2024-12-09 172422](https://github.com/user-attachments/assets/f20a01dc-8283-4422-8211-ecd8977cbed1)  
+---
 Montage à chaque démarrage :  
-![Capture d'écran 2024-12-09 172314](https://github.com/user-attachments/assets/b0e90dd0-38cf-4a13-98ff-2b719f7f2bdb)
-
+![Capture d'écran 2024-12-09 172314](https://github.com/user-attachments/assets/b0e90dd0-38cf-4a13-98ff-2b719f7f2bdb)  
+---
 
 
 
