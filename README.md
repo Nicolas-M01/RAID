@@ -71,3 +71,27 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 ![image](https://github.com/user-attachments/assets/c092cd22-8991-40f8-847a-33d13623f48b)
 ---
 </details>
+
+
+
+RAID 0 sous Windows (striping)
+Dans `Disk Management`  
+`New striped volume` sur un des disques choisis pour le RAID 0  
+![Capture d'écran 2024-12-09 143633](https://github.com/user-attachments/assets/1985024c-ff5e-44f9-b7c5-aa45f2813301)
+Choisir le 2ème disque de réplication  
+![Capture d'écran 2024-12-09 143654](https://github.com/user-attachments/assets/abea8da8-90e3-4e69-98a2-ce7a66d82c1e)
+Attribuer une lettre de lecteur pour le RAID 0  
+![Capture d'écran 2024-12-09 143712](https://github.com/user-attachments/assets/54cab969-c19d-457a-9db6-6b9cc29977d6)
+Nommer le RAID 0  
+![Capture d'écran 2024-12-09 143734](https://github.com/user-attachments/assets/09d7342e-ac6d-4328-8853-bd7b7bd7ee1f)
+Notre RAID 0 est prêt :  
+![Capture d'écran 2024-12-09 143858](https://github.com/user-attachments/assets/b85d5579-b155-4993-a378-9fe9108cc9cb)
+
+RAID 1 sous Windows (mirroring & duplexing)
+
+RAID 5 sous Windows (striping with parity)
+
+
+
+
+
