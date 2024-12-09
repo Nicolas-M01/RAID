@@ -81,31 +81,57 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 </summary>
 Dans `Disk Management`  
 `New striped volume` sur un des disques choisis pour le RAID 0  
----
-  
+---  
+ 
 ![Capture d'écran 2024-12-09 143633](https://github.com/user-attachments/assets/1985024c-ff5e-44f9-b7c5-aa45f2813301)  
 ---
+
 Choisir le 2ème disque de réplication  
 ![Capture d'écran 2024-12-09 143654](https://github.com/user-attachments/assets/abea8da8-90e3-4e69-98a2-ce7a66d82c1e)  
 ---
+
 Attribuer une lettre de lecteur pour le RAID 0  
 ![Capture d'écran 2024-12-09 143712](https://github.com/user-attachments/assets/54cab969-c19d-457a-9db6-6b9cc29977d6)  
 ---
+
 Nommer le RAID 0  
 ![Capture d'écran 2024-12-09 143734](https://github.com/user-attachments/assets/09d7342e-ac6d-4328-8853-bd7b7bd7ee1f)  
 ---
+
 Notre RAID 0 est prêt :  
 ![Capture d'écran 2024-12-09 143858](https://github.com/user-attachments/assets/b85d5579-b155-4993-a378-9fe9108cc9cb)  
 ---
 </details>
 
-  
+<details>
 <summary><h2> :arrow_forward: RAID 1 sous Windows (mirroring & duplexing)  
-  </h2>
+</h2>
 </summary>
+Dans `Disk Management`  
+`New mirror volume` sur un des disques choisis pour le RAID 1  
+  
+---
+![Capture d'écran 2024-12-09 151653](https://github.com/user-attachments/assets/3cc289f7-b705-4699-9bdb-644e7be502f1)
+
+---
+:hash: ``Choix de New mirrored volume" sur un des disques``  
+![Capture d'écran 2024-12-09 151746](https://github.com/user-attachments/assets/264e4a2f-f40f-444b-bb74-7b3c94e8e0dc)
+---
+:hash: ``Ajout du 2ème disque``
+![Capture d'écran 2024-12-09 151741](https://github.com/user-attachments/assets/91fc3a76-9be6-4fef-804b-1762aedd596b)
+---
+
+![Capture d'écran 2024-12-09 151727](https://github.com/user-attachments/assets/22953e0e-8dd1-4325-b74b-cf5568c3771f)
+---
+![Capture d'écran 2024-12-09 151721](https://github.com/user-attachments/assets/b98307a0-20ab-4939-bd21-cd32e2d4ecf7)
+---
+Notre RAID 1 est prêt
+![Capture d'écran 2024-12-09 151830](https://github.com/user-attachments/assets/58653693-47b0-4d95-9e0f-2241fcbe3632)
+---
+</details>
 
   
-</details>
+
 
 <details>
 <summary><h2> :arrow_forward: RAID 5 sous Windows (striping with parity)  
