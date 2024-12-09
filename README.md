@@ -168,7 +168,7 @@ Notre RAID 1 est prêt
 
 <details>
   <summary>
-    <h2> :arrow_forward: RAID sous Ubuntu
+    <h2> :arrow_forward: RAID 1 sous Ubuntu
   </summary>
 
 
@@ -233,10 +233,12 @@ On voit le mode dégradé dans "State", mais le fichier est toujours lisible.
 ![Capture d'écran 2024-12-09 201814](https://github.com/user-attachments/assets/0e99f25a-6e1b-42b8-9276-d90b3db2504a)  
 ---
 
-</details>
-
-
-RAID 5 sous Ubuntu, "version rapide"
+<details>
+<summary>
+<h2>
+:arrow_forward: RAID 5 sous Ubuntu, "version rapide"  
+</h2>
+</summary>
 
 * Formater les 3 disques avec `fdisk /dev/sd*` en partition linux raid autodetect.  
 * Créer le RAID 5 avec les 3 disques comme ci dessous :  
@@ -264,6 +266,7 @@ RAID 5 sous Ubuntu, "version rapide"
 * Sauvegarder config RAID 5  
 ![Capture d'écran 2024-12-09 221420](https://github.com/user-attachments/assets/cdb46cd0-e00e-48f7-8704-c6f8a22f4ceb)
 
+* Les commandes `sudo mdadm --detail /dev/md0` et `cat /proc/mdstat` permettent de vérifier le bon fonctionnement du RAID.
 
-
+</details>
 
