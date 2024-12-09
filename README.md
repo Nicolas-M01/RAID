@@ -208,18 +208,12 @@ De plus, /dev/sdb1 et /dev/sdc1 sont bien synchronisés.)
 ![Capture d'écran 2024-12-09 172422](https://github.com/user-attachments/assets/f20a01dc-8283-4422-8211-ecd8977cbed1)  
 ---
 
-* Montage à chaque démarrage :  
-/dev/md0 : Le RAID  
-/home/wilder/Data-RAID1 : Le point de montage de la partition RAID  
-ext4 : Le FS choisi pour le RAID  
-nofail : Avec cette option, il n'y aura pas de blocage au boot s'il y a un problème avec md0. (En géneral, on met default, mais ici on met nofail pour éviter d'être bloqué au démarrage de la machine.)  
-0 : C'est un champ pour les options de sauvegarde. La valeur 0 signifie que le système de fichiers ne sera pas sauvegardé lors de l'exécution de la commande dump.  
-0 : C'est un champ pour la fréquence de vérification du système de fichiers. La valeur 0 signifie que le système de fichiers ne sera pas vérifié lors du redémarrage.  
-![Capture d'écran 2024-12-09 172314](https://github.com/user-attachments/assets/b0e90dd0-38cf-4a13-98ff-2b719f7f2bdb)  
----
 
 ### Verrouillage du nom md0 de la partition RAID  
 * Envoyer le résultat de la commande `sudo mdadm --detail --scan` dans /etc/mdadm/mdadm.conf
 ![Capture d'écran 2024-12-09 174233](https://github.com/user-attachments/assets/441c25ef-2831-4de1-aa52-4d801e4f53ea)
+
+* Forcer la mise en application avec `sudo update-initramfs -u` et redémarrer  
+
 
 </details>
