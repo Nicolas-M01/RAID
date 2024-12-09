@@ -145,6 +145,7 @@ Notre RAID 1 est prêt
 :hash: ``Ajout des 2 autres disques``  
 ---
 ![Capture d'écran 2024-12-09 144833](https://github.com/user-attachments/assets/5e6437fc-d424-438a-87e2-1dd5f5f558ec)  
+
 :hash: Attribution de la lettre de lecteur  
 ---
 ![Capture d'écran 2024-12-09 144849](https://github.com/user-attachments/assets/a3f21d86-ff0b-4bb6-9867-bf96869434ce)  
@@ -152,12 +153,13 @@ Notre RAID 1 est prêt
 :hash: Nom du RAID 5  
 ---
 ![Capture d'écran 2024-12-09 144908](https://github.com/user-attachments/assets/5f6c0204-d324-419a-862d-6561fc6a03b3)  
+
 :hash: Le RAID 5 est créé. Pour 3Go on a 2Go  
 ---
 ![Capture d'écran 2024-12-09 144925](https://github.com/user-attachments/assets/74b41509-f58a-4c8a-92b1-4a77163a7b6c)  
 
 :hash: Notre RAID 5 est prêt  
 ---
-![Capture d'écran 2024-12-09 145242](https://github.com/user-attachments/assets/a565fce9-79b6-4bd7-906b-be291467d083)
+![Capture d'écran 2024-12-09 145242](https://github.com/user-attachments/assets/a565fce9-79b6-4bd7-906b-be291467d083)  
 </details>
 
