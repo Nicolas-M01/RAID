@@ -232,6 +232,8 @@ On voit le mode dégradé dans "State", mais le fichier est toujours lisible.
 * Ajouter ce nouveau disque au `md0` avec `sudo mdadm --manage /dev/md0 --add /dev/sdd1` et tout rentre dans l'ordre  
 ![Capture d'écran 2024-12-09 201814](https://github.com/user-attachments/assets/0e99f25a-6e1b-42b8-9276-d90b3db2504a)  
 ---
+</details>
+
 
 <details>
 <summary>
