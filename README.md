@@ -74,7 +74,7 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 
 
 
-RAID 0 sous Windows (striping)
+RAID 0 sous Windows (striping)  
 Dans `Disk Management`  
 `New striped volume` sur un des disques choisis pour le RAID 0  
 ![Capture d'écran 2024-12-09 143633](https://github.com/user-attachments/assets/1985024c-ff5e-44f9-b7c5-aa45f2813301)  
@@ -87,11 +87,18 @@ Nommer le RAID 0
 Notre RAID 0 est prêt :  
 ![Capture d'écran 2024-12-09 143858](https://github.com/user-attachments/assets/b85d5579-b155-4993-a378-9fe9108cc9cb)  
 
-RAID 1 sous Windows (mirroring & duplexing)
-
-RAID 5 sous Windows (striping with parity)
 
 
+RAID 1 sous Windows (mirroring & duplexing)  
+
+RAID 5 sous Windows (striping with parity)  
+
+![Capture d'écran 2024-12-09 144702](https://github.com/user-attachments/assets/00b56046-4dad-4bb7-b988-491bce3ba27c)
+![Capture d'écran 2024-12-09 144833](https://github.com/user-attachments/assets/5e6437fc-d424-438a-87e2-1dd5f5f558ec)
+![Capture d'écran 2024-12-09 144849](https://github.com/user-attachments/assets/a3f21d86-ff0b-4bb6-9867-bf96869434ce)
+![Capture d'écran 2024-12-09 144908](https://github.com/user-attachments/assets/5f6c0204-d324-419a-862d-6561fc6a03b3)
+Notre RAID 5 est prêt  
+![Capture d'écran 2024-12-09 144925](https://github.com/user-attachments/assets/74b41509-f58a-4c8a-92b1-4a77163a7b6c)
 
 
 
