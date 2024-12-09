@@ -74,9 +74,11 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 
 
 
-RAID 0 sous Windows (striping)  
+<details>
+<summary><h2> RAID 0 sous Windows (striping)  
+</summary>
 Dans `Disk Management`  
-`New striped volume` sur un des disques choisis pour le RAID 0  
+`New striped volume` sur un des disques choisis pour le RAID 0    
 ![Capture d'écran 2024-12-09 143633](https://github.com/user-attachments/assets/1985024c-ff5e-44f9-b7c5-aa45f2813301)  
 Choisir le 2ème disque de réplication  
 ![Capture d'écran 2024-12-09 143654](https://github.com/user-attachments/assets/abea8da8-90e3-4e69-98a2-ce7a66d82c1e)  
@@ -86,19 +88,32 @@ Nommer le RAID 0
 ![Capture d'écran 2024-12-09 143734](https://github.com/user-attachments/assets/09d7342e-ac6d-4328-8853-bd7b7bd7ee1f)  
 Notre RAID 0 est prêt :  
 ![Capture d'écran 2024-12-09 143858](https://github.com/user-attachments/assets/b85d5579-b155-4993-a378-9fe9108cc9cb)  
+</details>
 
+### RAID 1 sous Windows (mirroring & duplexing)  
 
+### RAID 5 sous Windows (striping with parity)  
 
-RAID 1 sous Windows (mirroring & duplexing)  
+:hash: ``Choix du RAID 5 sur un des disques``  
+---
+![Capture d'écran 2024-12-09 144702](https://github.com/user-attachments/assets/00b56046-4dad-4bb7-b988-491bce3ba27c)  
 
-RAID 5 sous Windows (striping with parity)  
+:hash: ``Ajout des 2 autres disques``  
+---
+![Capture d'écran 2024-12-09 144833](https://github.com/user-attachments/assets/5e6437fc-d424-438a-87e2-1dd5f5f558ec)  
+:hash: Attribution de la lettre de lecteur  
+---
+![Capture d'écran 2024-12-09 144849](https://github.com/user-attachments/assets/a3f21d86-ff0b-4bb6-9867-bf96869434ce)  
 
-![Capture d'écran 2024-12-09 144702](https://github.com/user-attachments/assets/00b56046-4dad-4bb7-b988-491bce3ba27c)
-![Capture d'écran 2024-12-09 144833](https://github.com/user-attachments/assets/5e6437fc-d424-438a-87e2-1dd5f5f558ec)
-![Capture d'écran 2024-12-09 144849](https://github.com/user-attachments/assets/a3f21d86-ff0b-4bb6-9867-bf96869434ce)
-![Capture d'écran 2024-12-09 144908](https://github.com/user-attachments/assets/5f6c0204-d324-419a-862d-6561fc6a03b3)
-Notre RAID 5 est prêt  
-![Capture d'écran 2024-12-09 144925](https://github.com/user-attachments/assets/74b41509-f58a-4c8a-92b1-4a77163a7b6c)
+:hash: Nom du RAId 5  
+---
+![Capture d'écran 2024-12-09 144908](https://github.com/user-attachments/assets/5f6c0204-d324-419a-862d-6561fc6a03b3)  
+:hash: Le RAID 5 est créé. Pour 3Go on a 2Go  
+---
+![Capture d'écran 2024-12-09 144925](https://github.com/user-attachments/assets/74b41509-f58a-4c8a-92b1-4a77163a7b6c)  
 
+:hash: Notre RAID 5 est prêt  
+---
+![Capture d'écran 2024-12-09 145242](https://github.com/user-attachments/assets/a565fce9-79b6-4bd7-906b-be291467d083)
 
 
