@@ -1,4 +1,4 @@
-# RAID (Redundant Array of Inexpensive Disks)  
+  # RAID (Redundant Array of Inexpensive Disks)  
 ---
 <details>
 <summary>
@@ -233,5 +233,31 @@ On voit le mode dégradé dans "State", mais le fichier est toujours lisible.
 ![Capture d'écran 2024-12-09 201814](https://github.com/user-attachments/assets/0e99f25a-6e1b-42b8-9276-d90b3db2504a)  
 ---
 
-
 </details>
+
+
+RAID 5 sous Ubuntu, "version rapide"
+
+* Formater les 3 disques avec `fdisk /dev/sd*` en partition linux raid autodetect.  
+* Créer le RAID 5 avec les 3 disques comme ci dessous :  
+![Capture d'écran 2024-12-09 215437](https://github.com/user-attachments/assets/bf784d84-cd5b-48b9-8ef1-b1ad00047956)  
+
+* Une fois créé `cat /proc/mdstat` permet de voir l'état du RAID.  
+![Capture d'écran 2024-12-09 215528](https://github.com/user-attachments/assets/fe69b8b3-6e07-4e58-ae06-ad640517bdd6)  
+
+* Mais aussi avec sudo mdadm --detail /dev/md0 :  
+![Capture d'écran 2024-12-09 215725](https://github.com/user-attachments/assets/dd1af3da-5b94-4cea-8851-06a150175944)  
+
+* Création du système de fichiers en ext4 :  
+![image](https://github.com/user-attachments/assets/48f4f077-1a23-4794-9ae7-a224ae0df095)  
+
+
+* Création du dossier, et montage de la partition dans ce dossier.  
+![Capture d'écran 2024-12-09 220244](https://github.com/user-attachments/assets/e8657896-0df2-48ca-ab98-f5af8cc469ed)  
+
+* Envoir de l'UUID dans `/etc/fstab` à l'aide `blkid` :  
+![Capture d'écran 2024-12-09 220630](https://github.com/user-attachments/assets/42b399c8-7bfb-4846-96d9-0eb96e6dbd05)  
+
+* Puis Modification du fichier `/etc/fstab` (Il sera pris en compte à chaque démarrage) :  
+![Capture d'écran 2024-12-09 220758](https://github.com/user-attachments/assets/012a2606-47f9-4ac5-b40d-7a8118f8d559)  
+
