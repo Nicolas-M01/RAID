@@ -216,4 +216,22 @@ De plus, /dev/sdb1 et /dev/sdc1 sont bien synchronisés.)
 * Forcer la mise en application avec `sudo update-initramfs -u` et redémarrer  
 
 
+### Simulation de panne  
+
+Créer un fichier avec du texte dans "DATA-RAID1".
+Couper un des lecteurs du RAID1 sur VirtualBox.
+* Executer `mdadm --detail /dev/md0`
+On voit le mode dégradé dans "State", mais le fichier est toujours lisible.
+![Capture d'écran 2024-12-09 201233](https://github.com/user-attachments/assets/7917edaa-1016-4c25-bbaa-57fb3f7940eb)
+---
+
+* Partitionner comme au début avec `fdisk /dev/sdd`... (Lui attribuer un format linux raid)  
+![Capture d'écran 2024-12-09 201422](https://github.com/user-attachments/assets/890de908-5a7e-4dde-ab6d-9904f6df97eb)  
+---
+
+* Ajouter ce nouveau disque au `md0` avec `sudo mdadm --manage /dev/md0 --add /dev/sdd1` et tout rentre dans l'ordre  
+![Capture d'écran 2024-12-09 201814](https://github.com/user-attachments/assets/0e99f25a-6e1b-42b8-9276-d90b3db2504a)  
+---
+
+
 </details>
