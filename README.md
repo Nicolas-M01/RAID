@@ -173,7 +173,7 @@ Notre RAID 1 est prêt
 </details>
 
 Installer "mdadm" :
-`sudo apt-get install mdadm`, pour administrer le RAID mdadm sous Linux.
+`sudo apt-get install mdadm`, pour administrer le RAID mdadm sous Linux.  
 
 
 ![Capture d'écran 2024-12-09 164224](https://github.com/user-attachments/assets/e0dc5aa1-9b7e-424b-9170-5d30c98de9c3)  
