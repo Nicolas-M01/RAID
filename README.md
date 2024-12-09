@@ -1,7 +1,8 @@
 # RAID
 ---
 <details>
-<summary><h2>
+<summary>
+<h2>
 :arrow_forward: Les différents types de RAID.  
 </h2>
 </summary>
@@ -76,6 +77,7 @@ Cette configuration offre un très bon niveau de sécurité car pour qu'une déf
 
 <details>
 <summary><h2> :arrow_forward: RAID 0 sous Windows (striping)  
+</h2>
 </summary>
 Dans `Disk Management`  
 `New striped volume` sur un des disques choisis pour le RAID 0  
@@ -99,6 +101,7 @@ Notre RAID 0 est prêt :
 
   
 <summary><h2> :arrow_forward: RAID 1 sous Windows (mirroring & duplexing)  
+  </h2>
 </summary>
 
   
@@ -106,6 +109,7 @@ Notre RAID 0 est prêt :
 
 <details>
 <summary><h2> :arrow_forward: RAID 5 sous Windows (striping with parity)  
+  </h2>
 </summary>
 
 :hash: ``Choix du RAID 5 sur un des disques``  
