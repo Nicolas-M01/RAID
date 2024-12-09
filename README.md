@@ -117,12 +117,13 @@ Dans `Disk Management`
 :hash: ``Ajout du 2ème disque``  
 ![Capture d'écran 2024-12-09 151721](https://github.com/user-attachments/assets/b98307a0-20ab-4939-bd21-cd32e2d4ecf7)  
 ---
-:hash: Attribution de la lettre de lecteur 
+:hash: Attribution de la lettre de lecteur  
 ![Capture d'écran 2024-12-09 151727](https://github.com/user-attachments/assets/22953e0e-8dd1-4325-b74b-cf5568c3771f)  
 ---
-:hash: Nom du RAID 1
-![Capture d'écran 2024-12-09 151741](https://github.com/user-attachments/assets/91fc3a76-9be6-4fef-804b-1762aedd596b)
+:hash: Nom du RAID 1  
+![Capture d'écran 2024-12-09 151741](https://github.com/user-attachments/assets/91fc3a76-9be6-4fef-804b-1762aedd596b)  
 ---
+
 ![Capture d'écran 2024-12-09 151746](https://github.com/user-attachments/assets/264e4a2f-f40f-444b-bb74-7b3c94e8e0dc)  
 ---
 Notre RAID 1 est prêt  
