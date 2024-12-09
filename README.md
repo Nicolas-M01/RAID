@@ -108,25 +108,25 @@ Notre RAID 0 est prêt :
 </h2>
 </summary>
 Dans `Disk Management`  
-`New mirror volume` sur un des disques choisis pour le RAID 1  
+:hash: ``Choix de New mirrored volume" sur un des disques``  
   
 ---
-![Capture d'écran 2024-12-09 151653](https://github.com/user-attachments/assets/3cc289f7-b705-4699-9bdb-644e7be502f1)
-
+  
+![Capture d'écran 2024-12-09 151653](https://github.com/user-attachments/assets/3cc289f7-b705-4699-9bdb-644e7be502f1)  
 ---
-:hash: ``Choix de New mirrored volume" sur un des disques``  
-![Capture d'écran 2024-12-09 151746](https://github.com/user-attachments/assets/264e4a2f-f40f-444b-bb74-7b3c94e8e0dc)
+:hash: ``Ajout du 2ème disque``  
+![Capture d'écran 2024-12-09 151721](https://github.com/user-attachments/assets/b98307a0-20ab-4939-bd21-cd32e2d4ecf7)  
 ---
-:hash: ``Ajout du 2ème disque``
+:hash: Attribution de la lettre de lecteur 
+![Capture d'écran 2024-12-09 151727](https://github.com/user-attachments/assets/22953e0e-8dd1-4325-b74b-cf5568c3771f)  
+---
+:hash: Nom du RAID 1
 ![Capture d'écran 2024-12-09 151741](https://github.com/user-attachments/assets/91fc3a76-9be6-4fef-804b-1762aedd596b)
 ---
-
-![Capture d'écran 2024-12-09 151727](https://github.com/user-attachments/assets/22953e0e-8dd1-4325-b74b-cf5568c3771f)
+![Capture d'écran 2024-12-09 151746](https://github.com/user-attachments/assets/264e4a2f-f40f-444b-bb74-7b3c94e8e0dc)  
 ---
-![Capture d'écran 2024-12-09 151721](https://github.com/user-attachments/assets/b98307a0-20ab-4939-bd21-cd32e2d4ecf7)
----
-Notre RAID 1 est prêt
-![Capture d'écran 2024-12-09 151830](https://github.com/user-attachments/assets/58653693-47b0-4d95-9e0f-2241fcbe3632)
+Notre RAID 1 est prêt  
+![Capture d'écran 2024-12-09 151830](https://github.com/user-attachments/assets/58653693-47b0-4d95-9e0f-2241fcbe3632)  
 ---
 </details>
 
@@ -149,7 +149,7 @@ Notre RAID 1 est prêt
 ---
 ![Capture d'écran 2024-12-09 144849](https://github.com/user-attachments/assets/a3f21d86-ff0b-4bb6-9867-bf96869434ce)  
 
-:hash: Nom du RAId 5  
+:hash: Nom du RAID 5  
 ---
 ![Capture d'écran 2024-12-09 144908](https://github.com/user-attachments/assets/5f6c0204-d324-419a-862d-6561fc6a03b3)  
 :hash: Le RAID 5 est créé. Pour 3Go on a 2Go  
