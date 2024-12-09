@@ -1,4 +1,4 @@
-# RAID
+# RAID (Redundant Array of Inexpensive Disks)  
 ---
 <details>
 <summary>
