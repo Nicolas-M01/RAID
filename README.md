@@ -175,9 +175,12 @@ Notre RAID 1 est prêt
 ![Capture d'écran 2024-12-09 164224](https://github.com/user-attachments/assets/e0dc5aa1-9b7e-424b-9170-5d30c98de9c3)
 taper `m` pour voir les options. taper `n` pour nouvelle partition. Puis `p`, pour partition primaire, puis entrée plusieurs fois pour prendre tout le disque. Changer le type de partition avec `t`, puis `L` pour avoir les raccourcis de codes. taper ensuite `fd` pour "Linux RAID auto". Ensuite `w` pour enregistrer et quiter.  
 
-
-
-
 * En tapant `sudo fdisk -l` on voit que notre partition Linux RAID a bien été prise en compte :  
 ![Capture d'écran 2024-12-09 165050](https://github.com/user-attachments/assets/6ea60427-25ca-40b0-ab66-9fc97527c174)
+
+Faire la même chose avec le disque c : `sudo fdisk /dev/sdc`  
+
+
+`lsblk` permet de voir nos partitions sur les 2 disques.
+![Capture d'écran 2024-12-09 165824](https://github.com/user-attachments/assets/2d3036f8-45b5-44c9-a5e9-6ceb57dc2ebc)
 
